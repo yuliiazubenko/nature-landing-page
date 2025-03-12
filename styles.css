@@ -292,12 +292,14 @@ footer .container {
 @media screen and (max-width: 520px) {
   .menu-btn {
     display: block;
+    z-index: 2;
   }
 
   .nav-list {
     flex-direction: column;
     background: grey;
     position: absolute;
+    z-index: 1;
     top: 0;
     right: -900px;
     width: 80%;
